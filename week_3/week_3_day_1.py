@@ -47,41 +47,41 @@
 
 
 
-# # Review
-# create variables for the following :
-# 1. age
-age = input("How old are you?")
+# # # Review
+# # create variables for the following :
+# # 1. age
+# age = input("How old are you?")
 
-# 2. name
-name = input ("What is your name?")
+# # 2. name
+# name = input ("What is your name?")
 
-# 3. song
-song = input ("What is your favorite song?")
+# # 3. song
+# song = input ("What is your favorite song?")
 
-# 4. food
-food = input ("What is your favorite food?")
+# # 4. food
+# food = input ("What is your favorite food?")
 
-# 5. number
-number = input("What is your favorite number?")
+# # 5. number
+# number = input("What is your favorite number?")
 
 
 
-# #now include the variables you just made print in the following...
-print("I am" , age)
-print("My name is" , name)
-print("My favorite song is" , song)
-print("My favorite food is" , food)
-print("My favorite number is" , number)
-# Once upon a time, there was a [age] old coder named [name].
-print("Once upon a time, there was a " + age + " year old coder named " + name)
-16
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print( name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until " + name + " would stop singing.")
+# # #now include the variables you just made print in the following...
+# print("I am" , age)
+# print("My name is" , name)
+# print("My favorite song is" , song)
+# print("My favorite food is" , food)
+# print("My favorite number is" , number)
+# # Once upon a time, there was a [age] old coder named [name].
+# print("Once upon a time, there was a " + age + " year old coder named " + name)
+# 16
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print( name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until " + name + " would stop singing.")
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-print("Still, " + name + " was the best coder on the team and could write " + number + " of code every day. Maybe " + song + " was " + name + "'s secret power ")
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# print("Still, " + name + " was the best coder on the team and could write " + number + " of code every day. Maybe " + song + " was " + name + "'s secret power ")
 
-##########################################################################################
+# ##########################################################################################
 
 
 
@@ -180,23 +180,47 @@ print("Still, " + name + " was the best coder on the team and could write " + nu
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
 
 
+
+
+
 ##########################################################################################
 # #addition
+print(2 + 2)
 # #multiplication
+print(2 * 2)
 # #division
+print(2 / 2)
 # #modulo
+print (2 % 2)  #remainder of the division
 # #powers
+print(2 ** 2)
 # #get the max and min of a number
+print(max(2, 3))
+print(min(2, 3))
 # #round a number
+print(round(2.5))
 # # absolute value
+print(abs(-4))
 # # order of operations
+print(2 + 10 * 10 + 3)
 # #to do more you need to import special math libraries from python
-# #from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-# #ceil method
-# #sqrt method
 
+from math import *    
+
+# #this goes out and grabs some different math functions we can use
+
+# #floor method
+print(floor(3.7))
+print(floor(3.3))
+print(floor(3.9))
+#floor means it will always round down
+# #ceil method
+print(ceil(3.7))
+print(ceil(3.3))
+print(ceil(3.9))
+#will always round up
+# #sqrt method
+print(sqrt(36))
 
 
 
