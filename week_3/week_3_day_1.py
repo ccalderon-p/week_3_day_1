@@ -73,12 +73,14 @@ print("My favorite song is" , song)
 print("My favorite food is" , food)
 print("My favorite number is" , number)
 # Once upon a time, there was a [age] old coder named [name].
-
-
+print("Once upon a time, there was a " + age + " year old coder named " + name)
+16
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
+print( name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until " + name + " would stop singing.")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+print("Still, " + name + " was the best coder on the team and could write " + number + " of code every day. Maybe " + song + " was " + name + "'s secret power ")
+
 ##########################################################################################
 
 
@@ -116,12 +118,12 @@ print("My favorite number is" , number)
 
 
 # 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# last_name
+# email_address
+# percent
+# variable_name
+# zero
+# list_of_names
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
@@ -142,10 +144,10 @@ print("My favorite number is" , number)
 # email_address
 # percentage
 # variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# 1_variable --> one_variable
+# email@address --> email_address
+# percentage% --> percentage
+# illinois
 
 
 
