@@ -183,44 +183,44 @@
 
 
 
-##########################################################################################
-# #addition
-print(2 + 2)
-# #multiplication
-print(2 * 2)
-# #division
-print(2 / 2)
-# #modulo
-print (2 % 2)  #remainder of the division
-# #powers
-print(2 ** 2)
-# #get the max and min of a number
-print(max(2, 3))
-print(min(2, 3))
-# #round a number
-print(round(2.5))
-# # absolute value
-print(abs(-4))
-# # order of operations
-print(2 + 10 * 10 + 3)
-# #to do more you need to import special math libraries from python
+# ##########################################################################################
+# # #addition
+# print(2 + 2)
+# # #multiplication
+# print(2 * 2)
+# # #division
+# print(2 / 2)
+# # #modulo
+# print (2 % 2)  #remainder of the division
+# # #powers
+# print(2 ** 2)
+# # #get the max and min of a number
+# print(max(2, 3))
+# print(min(2, 3))
+# # #round a number
+# print(round(2.5))
+# # # absolute value
+# print(abs(-4))
+# # # order of operations
+# print(2 + 10 * 10 + 3)
+# # #to do more you need to import special math libraries from python
 
-from math import *    
+# from math import *    
 
-# #this goes out and grabs some different math functions we can use
+# # #this goes out and grabs some different math functions we can use
 
-# #floor method
-print(floor(3.7))
-print(floor(3.3))
-print(floor(3.9))
-#floor means it will always round down
-# #ceil method
-print(ceil(3.7))
-print(ceil(3.3))
-print(ceil(3.9))
-#will always round up
-# #sqrt method
-print(sqrt(36))
+# # #floor method
+# print(floor(3.7))
+# print(floor(3.3))
+# print(floor(3.9))
+# #floor means it will always round down
+# # #ceil method
+# print(ceil(3.7))
+# print(ceil(3.3))
+# print(ceil(3.9))
+# #will always round up
+# # #sqrt method
+# print(sqrt(36))
 
 
 
@@ -248,10 +248,16 @@ print(sqrt(36))
 # # find the remainder of the numbers
 # #round one number
 
-
-
-
-
+name = input("what is your name?")
+print("My name is" , name)
+first_number = (int (input("Give me a number")))
+second_number = (int (input("Give me another number")))
+print(first_number + second_number)
+print(first_number * second_number)
+print(max(first_number , second_number))
+print(min(first_number , second_number))
+print(first_number % second_number)
+print(round(first_number))
 
 
 
